@@ -1,0 +1,27 @@
+var _user$project$Messages$OnTestMessage = {ctor: 'OnTestMessage'};
+var _user$project$Messages$PromoRegistrationCallCompleted = function (a) {
+	return {ctor: 'PromoRegistrationCallCompleted', _0: a};
+};
+var _user$project$Messages$OnLandingSignUpMobileClick = {ctor: 'OnLandingSignUpMobileClick'};
+var _user$project$Messages$OnLandingSignUp = {ctor: 'OnLandingSignUp'};
+var _user$project$Messages$OnLandingShortIdeaType = function (a) {
+	return {ctor: 'OnLandingShortIdeaType', _0: a};
+};
+var _user$project$Messages$OnLandingCompanyType = function (a) {
+	return {ctor: 'OnLandingCompanyType', _0: a};
+};
+var _user$project$Messages$OnLandingEmailType = function (a) {
+	return {ctor: 'OnLandingEmailType', _0: a};
+};
+var _user$project$Messages$OnLandingUsernameType = function (a) {
+	return {ctor: 'OnLandingUsernameType', _0: a};
+};
+var _user$project$Messages$OnCompanyRegistrationOpen = {ctor: 'OnCompanyRegistrationOpen'};
+var _user$project$Messages$OnIdeaGeneratorRegistrationOpen = {ctor: 'OnIdeaGeneratorRegistrationOpen'};
+var _user$project$Messages$OnLoginButtonSwitch = {ctor: 'OnLoginButtonSwitch'};
+var _user$project$Messages$OnGetStartedButtonsSwitch = {ctor: 'OnGetStartedButtonsSwitch'};
+var _user$project$Messages$OnPricingClose = {ctor: 'OnPricingClose'};
+var _user$project$Messages$OnPricingOpen = {ctor: 'OnPricingOpen'};
+var _user$project$Messages$OnLocationChange = function (a) {
+	return {ctor: 'OnLocationChange', _0: a};
+};

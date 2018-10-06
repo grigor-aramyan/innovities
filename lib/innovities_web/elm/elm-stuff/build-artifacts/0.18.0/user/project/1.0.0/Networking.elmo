@@ -1,0 +1,67 @@
+var _user$project$Networking$promoDataDecoder = function () {
+	var decoder = A6(
+		_elm_lang$core$Json_Decode$map5,
+		_user$project$Models$PromoRegistration,
+		A2(_elm_lang$core$Json_Decode$field, 'full_name', _elm_lang$core$Json_Decode$string),
+		A2(_elm_lang$core$Json_Decode$field, 'email', _elm_lang$core$Json_Decode$string),
+		A2(_elm_lang$core$Json_Decode$field, 'prefered_organization', _elm_lang$core$Json_Decode$string),
+		A2(_elm_lang$core$Json_Decode$field, 'short_description', _elm_lang$core$Json_Decode$string),
+		A2(_elm_lang$core$Json_Decode$field, 'error', _elm_lang$core$Json_Decode$string));
+	return A2(
+		_elm_lang$core$Json_Decode$at,
+		{
+			ctor: '::',
+			_0: 'data',
+			_1: {ctor: '[]'}
+		},
+		decoder);
+}();
+var _user$project$Networking$promoDataEncoder = function (promoData) {
+	return _elm_lang$core$Json_Encode$object(
+		{
+			ctor: '::',
+			_0: {
+				ctor: '_Tuple2',
+				_0: 'full_name',
+				_1: _elm_lang$core$Json_Encode$string(promoData.full_name)
+			},
+			_1: {
+				ctor: '::',
+				_0: {
+					ctor: '_Tuple2',
+					_0: 'email',
+					_1: _elm_lang$core$Json_Encode$string(promoData.email)
+				},
+				_1: {
+					ctor: '::',
+					_0: {
+						ctor: '_Tuple2',
+						_0: 'prefered_organization',
+						_1: _elm_lang$core$Json_Encode$string(promoData.prefered_organization)
+					},
+					_1: {
+						ctor: '::',
+						_0: {
+							ctor: '_Tuple2',
+							_0: 'short_description',
+							_1: _elm_lang$core$Json_Encode$string(promoData.short_description)
+						},
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		});
+};
+var _user$project$Networking$api = 'http://localhost:4000/api/';
+var _user$project$Networking$promoRegisterUri = A2(_elm_lang$core$Basics_ops['++'], _user$project$Networking$api, 'promo/registration');
+var _user$project$Networking$promoRegister = function (promoData) {
+	var body = _elm_lang$http$Http$jsonBody(
+		_user$project$Networking$promoDataEncoder(promoData));
+	return A3(_elm_lang$http$Http$post, _user$project$Networking$promoRegisterUri, body, _user$project$Networking$promoDataDecoder);
+};
+var _user$project$Networking$promoRegisterCmd = function (promoData) {
+	return A2(
+		_elm_lang$http$Http$send,
+		_user$project$Messages$PromoRegistrationCallCompleted,
+		_user$project$Networking$promoRegister(promoData));
+};

@@ -1,0 +1,41 @@
+var _user$project$Models$Model = function (a) {
+	return function (b) {
+		return function (c) {
+			return function (d) {
+				return function (e) {
+					return function (f) {
+						return function (g) {
+							return function (h) {
+								return function (i) {
+									return function (j) {
+										return function (k) {
+											return function (l) {
+												return function (m) {
+													return function (n) {
+														return function (o) {
+															return function (p) {
+																return function (q) {
+																	return {route: a, pricingOpened: b, getStartedOpened: c, loginOpened: d, registerIdeaGeneratorOpened: e, registerCompanyOpened: f, landingUsername: g, landingEmail: h, landingCompany: i, landingShortIdea: j, landingSignUpMobileVisible: k, landingUsernameError: l, landingEmailError: m, landingCompanyError: n, landingShortIdeaError: o, landingPromoRegisterError: p, landingInputFieldsVisible: q};
+																};
+															};
+														};
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+	};
+};
+var _user$project$Models$PromoRegistration = F5(
+	function (a, b, c, d, e) {
+		return {full_name: a, email: b, prefered_organization: c, short_description: d, error: e};
+	});
+var _user$project$Models$Closed = {ctor: 'Closed'};
+var _user$project$Models$Opened = {ctor: 'Opened'};

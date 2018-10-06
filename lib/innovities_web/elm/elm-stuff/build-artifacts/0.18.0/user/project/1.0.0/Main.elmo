@@ -1,0 +1,440 @@
+var _user$project$Main$subscriptions = function (model) {
+	return _elm_lang$core$Platform_Sub$none;
+};
+var _user$project$Main$homeView = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _user$project$HeaderView$headerView(model),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$br,
+					{ctor: '[]'},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$br,
+							{ctor: '[]'},
+							{ctor: '[]'}),
+						_1: {
+							ctor: '::',
+							_0: _user$project$IntroInfo$infoView(model),
+							_1: {
+								ctor: '::',
+								_0: _user$project$TarrifPlans$ideaGeneratorsPlan,
+								_1: {
+									ctor: '::',
+									_0: _user$project$TarrifPlans$organizationsPlan,
+									_1: {
+										ctor: '::',
+										_0: _user$project$TopMembersList$innovatorsList(model),
+										_1: {
+											ctor: '::',
+											_0: _user$project$TopMembersList$organizationsList(model),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$br,
+													{ctor: '[]'},
+													{ctor: '[]'}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$br,
+														{ctor: '[]'},
+														{ctor: '[]'}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$br,
+															{ctor: '[]'},
+															{ctor: '[]'}),
+														_1: {
+															ctor: '::',
+															_0: _user$project$AboutUsView$aboutUsView,
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$br,
+																	{ctor: '[]'},
+																	{ctor: '[]'}),
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$br,
+																		{ctor: '[]'},
+																		{ctor: '[]'}),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$br,
+																			{ctor: '[]'},
+																			{ctor: '[]'}),
+																		_1: {
+																			ctor: '::',
+																			_0: _user$project$ContactUsView$contactUsView,
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$br,
+																					{ctor: '[]'},
+																					{ctor: '[]'}),
+																				_1: {
+																					ctor: '::',
+																					_0: A2(
+																						_elm_lang$html$Html$br,
+																						{ctor: '[]'},
+																						{ctor: '[]'}),
+																					_1: {
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$br,
+																							{ctor: '[]'},
+																							{ctor: '[]'}),
+																						_1: {
+																							ctor: '::',
+																							_0: _user$project$FaqView$faqView,
+																							_1: {
+																								ctor: '::',
+																								_0: A2(
+																									_elm_lang$html$Html$br,
+																									{ctor: '[]'},
+																									{ctor: '[]'}),
+																								_1: {
+																									ctor: '::',
+																									_0: A2(
+																										_elm_lang$html$Html$br,
+																										{ctor: '[]'},
+																										{ctor: '[]'}),
+																									_1: {
+																										ctor: '::',
+																										_0: A2(
+																											_elm_lang$html$Html$br,
+																											{ctor: '[]'},
+																											{ctor: '[]'}),
+																										_1: {
+																											ctor: '::',
+																											_0: A2(
+																												_elm_lang$html$Html$br,
+																												{ctor: '[]'},
+																												{ctor: '[]'}),
+																											_1: {
+																												ctor: '::',
+																												_0: A2(
+																													_elm_lang$html$Html$br,
+																													{ctor: '[]'},
+																													{ctor: '[]'}),
+																												_1: {
+																													ctor: '::',
+																													_0: A2(
+																														_elm_lang$html$Html$br,
+																														{ctor: '[]'},
+																														{ctor: '[]'}),
+																													_1: {
+																														ctor: '::',
+																														_0: A2(
+																															_elm_lang$html$Html$br,
+																															{ctor: '[]'},
+																															{ctor: '[]'}),
+																														_1: {
+																															ctor: '::',
+																															_0: A2(
+																																_elm_lang$html$Html$br,
+																																{ctor: '[]'},
+																																{ctor: '[]'}),
+																															_1: {
+																																ctor: '::',
+																																_0: A2(
+																																	_elm_lang$html$Html$br,
+																																	{ctor: '[]'},
+																																	{ctor: '[]'}),
+																																_1: {
+																																	ctor: '::',
+																																	_0: A2(
+																																		_elm_lang$html$Html$br,
+																																		{ctor: '[]'},
+																																		{ctor: '[]'}),
+																																	_1: {
+																																		ctor: '::',
+																																		_0: A2(
+																																			_elm_lang$html$Html$br,
+																																			{ctor: '[]'},
+																																			{ctor: '[]'}),
+																																		_1: {
+																																			ctor: '::',
+																																			_0: _user$project$FooterView$footerView,
+																																			_1: {ctor: '[]'}
+																																		}
+																																	}
+																																}
+																															}
+																														}
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		});
+};
+var _user$project$Main$page = function (model) {
+	var currentRoute = model.route;
+	var _p0 = currentRoute;
+	if (_p0.ctor === 'HomeRoute') {
+		return _user$project$LandingPageView$landingView(model);
+	} else {
+		return A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('not found'),
+				_1: {ctor: '[]'}
+			});
+	}
+};
+var _user$project$Main$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('uk-height-large'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('uk-container'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'paddingTop', _1: '12px'},
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				},
+				{
+					ctor: '::',
+					_0: _user$project$Main$page(model),
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p1 = msg;
+		switch (_p1.ctor) {
+			case 'PromoRegistrationCallCompleted':
+				var _p2 = _p1._0;
+				if (_p2.ctor === 'Ok') {
+					var _p3 = _p2._0;
+					return _elm_lang$core$Native_Utils.eq(
+						_elm_lang$core$String$length(_p3.error),
+						0) ? {
+						ctor: '_Tuple2',
+						_0: _elm_lang$core$Native_Utils.update(
+							model,
+							{landingInputFieldsVisible: false}),
+						_1: _user$project$Ports$showPromoRegistrationConfirmDialog('')
+					} : {
+						ctor: '_Tuple2',
+						_0: _elm_lang$core$Native_Utils.update(
+							model,
+							{landingPromoRegisterError: _p3.error}),
+						_1: _elm_lang$core$Platform_Cmd$none
+					};
+				} else {
+					return {
+						ctor: '_Tuple2',
+						_0: _elm_lang$core$Native_Utils.update(
+							model,
+							{landingPromoRegisterError: 'Չսպասված սխալ գրանցման ժամանակ: Կապվեք մեզ հետ, խնդրեմ'}),
+						_1: _elm_lang$core$Platform_Cmd$none
+					};
+				}
+			case 'OnLandingSignUpMobileClick':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{landingSignUpMobileVisible: true}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnLandingSignUp':
+				var shortIdea = model.landingShortIdea;
+				var prefOrganization = model.landingCompany;
+				var email = model.landingEmail;
+				var emailError = _elm_lang$core$String$isEmpty(email) ? 'Պարտադիր է լրացնել' : ((!(A2(_elm_lang$core$String$contains, '@', email) && A2(_elm_lang$core$String$contains, '.', email))) ? 'Էլ. հասցեի ֆորմատը սխալ է' : '');
+				var username = model.landingUsername;
+				var usernameError = _elm_lang$core$String$isEmpty(username) ? 'Պարտադիր է լրացնել' : '';
+				var cmd = (_elm_lang$core$String$isEmpty(usernameError) && (_elm_lang$core$String$isEmpty(emailError) && (_elm_lang$core$String$isEmpty(model.landingCompanyError) && _elm_lang$core$String$isEmpty(model.landingShortIdeaError)))) ? _user$project$Networking$promoRegisterCmd(
+					A5(_user$project$Models$PromoRegistration, username, email, prefOrganization, shortIdea, '')) : _elm_lang$core$Platform_Cmd$none;
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{landingUsernameError: usernameError, landingEmailError: emailError}),
+					_1: cmd
+				};
+			case 'OnLandingShortIdeaType':
+				var _p4 = _p1._0;
+				var ideaError = (_elm_lang$core$Native_Utils.cmp(
+					_elm_lang$core$String$length(_p4),
+					200) > 0) ? 'Առավելագույնը 200 նիշ:' : '';
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{landingShortIdea: _p4, landingShortIdeaError: ideaError}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnLandingCompanyType':
+				var _p5 = _p1._0;
+				var companyError = (_elm_lang$core$Native_Utils.cmp(
+					_elm_lang$core$String$length(_p5),
+					30) > 0) ? 'Առավելագույնը 30 նիշ:' : '';
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{landingCompany: _p5, landingCompanyError: companyError}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnLandingEmailType':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{landingEmail: _p1._0}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnLandingUsernameType':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{landingUsername: _p1._0}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnIdeaGeneratorRegistrationOpen':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{registerIdeaGeneratorOpened: true}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnCompanyRegistrationOpen':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{registerCompanyOpened: true}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnLoginButtonSwitch':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{loginOpened: !model.loginOpened}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnGetStartedButtonsSwitch':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{getStartedOpened: !model.getStartedOpened}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnPricingClose':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{pricingOpened: _user$project$Models$Closed}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnPricingOpen':
+				var reverted = function () {
+					var _p6 = model.pricingOpened;
+					if (_p6.ctor === 'Opened') {
+						return _user$project$Models$Closed;
+					} else {
+						return _user$project$Models$Opened;
+					}
+				}();
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{pricingOpened: reverted}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnLocationChange':
+				var newRoute = _user$project$Routes$parseLocation(_p1._0);
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{route: newRoute}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			default:
+				return {ctor: '_Tuple2', _0: model, _1: _elm_lang$core$Platform_Cmd$none};
+		}
+	});
+var _user$project$Main$initialModel = function (route) {
+	return _user$project$Models$Model(route)(_user$project$Models$Closed)(false)(false)(false)(false)('')('')('')('')(false)('')('')('')('')('')(true);
+};
+var _user$project$Main$init = function (location) {
+	var currentRoute = _user$project$Routes$parseLocation(location);
+	return {
+		ctor: '_Tuple2',
+		_0: _user$project$Main$initialModel(currentRoute),
+		_1: _elm_lang$core$Platform_Cmd$none
+	};
+};
+var _user$project$Main$main = A2(
+	_elm_lang$navigation$Navigation$program,
+	_user$project$Messages$OnLocationChange,
+	{init: _user$project$Main$init, update: _user$project$Main$update, view: _user$project$Main$view, subscriptions: _user$project$Main$subscriptions})();

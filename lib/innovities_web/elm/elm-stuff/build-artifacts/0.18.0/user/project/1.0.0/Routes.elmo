@@ -1,0 +1,65 @@
+var _user$project$Routes$NotFoundRoute = {ctor: 'NotFoundRoute'};
+var _user$project$Routes$HomeRoute = {ctor: 'HomeRoute'};
+var _user$project$Routes$matchers = _evancz$url_parser$UrlParser$oneOf(
+	{
+		ctor: '::',
+		_0: A2(_evancz$url_parser$UrlParser$map, _user$project$Routes$HomeRoute, _evancz$url_parser$UrlParser$top),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_evancz$url_parser$UrlParser$map,
+				_user$project$Routes$HomeRoute,
+				_evancz$url_parser$UrlParser$s('innovators')),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_evancz$url_parser$UrlParser$map,
+					_user$project$Routes$HomeRoute,
+					_evancz$url_parser$UrlParser$s('organizations')),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_evancz$url_parser$UrlParser$map,
+						_user$project$Routes$HomeRoute,
+						_evancz$url_parser$UrlParser$s('innovators-pricing')),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_evancz$url_parser$UrlParser$map,
+							_user$project$Routes$HomeRoute,
+							_evancz$url_parser$UrlParser$s('organizations-pricing')),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_evancz$url_parser$UrlParser$map,
+								_user$project$Routes$HomeRoute,
+								_evancz$url_parser$UrlParser$s('about-us')),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_evancz$url_parser$UrlParser$map,
+									_user$project$Routes$HomeRoute,
+									_evancz$url_parser$UrlParser$s('contacts')),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_evancz$url_parser$UrlParser$map,
+										_user$project$Routes$HomeRoute,
+										_evancz$url_parser$UrlParser$s('faq')),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	});
+var _user$project$Routes$parseLocation = function (location) {
+	var _p0 = A2(_evancz$url_parser$UrlParser$parseHash, _user$project$Routes$matchers, location);
+	if (_p0.ctor === 'Just') {
+		return _p0._0;
+	} else {
+		return _user$project$Routes$NotFoundRoute;
+	}
+};

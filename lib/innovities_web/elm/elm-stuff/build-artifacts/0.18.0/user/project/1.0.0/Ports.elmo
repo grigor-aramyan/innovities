@@ -1,0 +1,5 @@
+var _user$project$Ports$showPromoRegistrationConfirmDialog = _elm_lang$core$Native_Platform.outgoingPort(
+	'showPromoRegistrationConfirmDialog',
+	function (v) {
+		return v;
+	});
